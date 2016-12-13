@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <WatchedResource>META-INF/context.xml</WatchedResource>
+
+    <Logger className="org.apache.catalina.logger.FileLogger"
+            prefix="localhost_examples_log." suffix=".txt"
+            timestamp="true"/>
+
+
+    <Resource name="jdbc/PHONE_ISHOP_DB" auth="Container"  removeAbandoned="true"
+              type="javax.sql.DataSource" removeAbandonedTimeout="60"
+              logAbandoned="true"
+
+              maxActive="64" maxIdle="30" maxWait="10000"
+              username="root" password="databasemysql" driverClassName="org.gjt.mm.mysql.Driver"
+              url="jdbc:mysql://localhost:3306/phone_ishop" />
+</Context>

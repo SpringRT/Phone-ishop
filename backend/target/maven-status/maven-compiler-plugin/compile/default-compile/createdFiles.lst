@@ -1,0 +1,10 @@
+ru\phone\ishop\bucket\SqlBucketManager.class
+ru\phone\ishop\dataBase\SqlConnectionFactory.class
+ru\phone\ishop\dataBase\AbstractSqlManager.class
+ru\phone\ishop\products\ProductManager.class
+ru\phone\ishop\products\SqlProductManager.class
+ru\phone\ishop\users\User.class
+ru\phone\ishop\bucket\BucketManager.class
+ru\phone\ishop\users\SqlUserManager.class
+ru\phone\ishop\users\UserManager.class
+ru\phone\ishop\products\Product.class

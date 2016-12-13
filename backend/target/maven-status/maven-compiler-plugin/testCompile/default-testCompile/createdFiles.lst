@@ -1,0 +1,4 @@
+ru\phone\ishop\AbstractTest.class
+ru\phone\ishop\users\SqlUserManagerTest.class
+ru\phone\ishop\bucket\SqlBucketManagerTest.class
+ru\phone\ishop\products\SqlProductManagerTest.class
